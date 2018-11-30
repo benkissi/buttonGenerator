@@ -1,14 +1,14 @@
 {
-  "main.css": "/buttonGenerator.git/static/css/main.15684e8b.chunk.css",
-  "main.js": "/buttonGenerator.git/static/js/main.7dd7d7ec.chunk.js",
-  "main.js.map": "/buttonGenerator.git/static/js/main.7dd7d7ec.chunk.js.map",
-  "static/js/1.2dd891c4.chunk.js": "/buttonGenerator.git/static/js/1.2dd891c4.chunk.js",
-  "static/js/1.2dd891c4.chunk.js.map": "/buttonGenerator.git/static/js/1.2dd891c4.chunk.js.map",
-  "runtime~main.js": "/buttonGenerator.git/static/js/runtime~main.cecedf3f.js",
-  "runtime~main.js.map": "/buttonGenerator.git/static/js/runtime~main.cecedf3f.js.map",
-  "static/media/logo.svg": "/buttonGenerator.git/static/media/logo.5d5d9eef.svg",
-  "static/css/main.15684e8b.chunk.css.map": "/buttonGenerator.git/static/css/main.15684e8b.chunk.css.map",
-  "index.html": "/buttonGenerator.git/index.html",
-  "precache-manifest.8b33e47cbc6ca5b2cd4ca9dfc74884ad.js": "/buttonGenerator.git/precache-manifest.8b33e47cbc6ca5b2cd4ca9dfc74884ad.js",
-  "service-worker.js": "/buttonGenerator.git/service-worker.js"
+  "main.css": "/buttonGenerator/static/css/main.15684e8b.chunk.css",
+  "main.js": "/buttonGenerator/static/js/main.ca619393.chunk.js",
+  "main.js.map": "/buttonGenerator/static/js/main.ca619393.chunk.js.map",
+  "static/js/1.2dd891c4.chunk.js": "/buttonGenerator/static/js/1.2dd891c4.chunk.js",
+  "static/js/1.2dd891c4.chunk.js.map": "/buttonGenerator/static/js/1.2dd891c4.chunk.js.map",
+  "runtime~main.js": "/buttonGenerator/static/js/runtime~main.13612395.js",
+  "runtime~main.js.map": "/buttonGenerator/static/js/runtime~main.13612395.js.map",
+  "static/media/logo.svg": "/buttonGenerator/static/media/logo.5d5d9eef.svg",
+  "static/css/main.15684e8b.chunk.css.map": "/buttonGenerator/static/css/main.15684e8b.chunk.css.map",
+  "index.html": "/buttonGenerator/index.html",
+  "precache-manifest.17f3ef7062a646650ab1ad910be0f251.js": "/buttonGenerator/precache-manifest.17f3ef7062a646650ab1ad910be0f251.js",
+  "service-worker.js": "/buttonGenerator/service-worker.js"
 }

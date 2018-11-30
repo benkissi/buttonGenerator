@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/buttonGenerator.git/precache-manifest.8b33e47cbc6ca5b2cd4ca9dfc74884ad.js"
+  "/buttonGenerator/precache-manifest.17f3ef7062a646650ab1ad910be0f251.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/buttonGenerator.git/index.html", {
+workbox.routing.registerNavigationRoute("/buttonGenerator/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
