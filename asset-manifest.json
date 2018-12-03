@@ -1,14 +1,15 @@
 {
-  "main.css": "/buttonGenerator/static/css/main.15684e8b.chunk.css",
-  "main.js": "/buttonGenerator/static/js/main.ca619393.chunk.js",
-  "main.js.map": "/buttonGenerator/static/js/main.ca619393.chunk.js.map",
-  "static/js/1.2dd891c4.chunk.js": "/buttonGenerator/static/js/1.2dd891c4.chunk.js",
-  "static/js/1.2dd891c4.chunk.js.map": "/buttonGenerator/static/js/1.2dd891c4.chunk.js.map",
+  "main.css": "/buttonGenerator/static/css/main.7675343e.chunk.css",
+  "main.js": "/buttonGenerator/static/js/main.234c6995.chunk.js",
+  "main.js.map": "/buttonGenerator/static/js/main.234c6995.chunk.js.map",
+  "static/css/1.c134f682.chunk.css": "/buttonGenerator/static/css/1.c134f682.chunk.css",
+  "static/js/1.2f4ca0ad.chunk.js": "/buttonGenerator/static/js/1.2f4ca0ad.chunk.js",
+  "static/js/1.2f4ca0ad.chunk.js.map": "/buttonGenerator/static/js/1.2f4ca0ad.chunk.js.map",
   "runtime~main.js": "/buttonGenerator/static/js/runtime~main.13612395.js",
   "runtime~main.js.map": "/buttonGenerator/static/js/runtime~main.13612395.js.map",
-  "static/media/logo.svg": "/buttonGenerator/static/media/logo.5d5d9eef.svg",
-  "static/css/main.15684e8b.chunk.css.map": "/buttonGenerator/static/css/main.15684e8b.chunk.css.map",
+  "static/css/1.c134f682.chunk.css.map": "/buttonGenerator/static/css/1.c134f682.chunk.css.map",
+  "static/css/main.7675343e.chunk.css.map": "/buttonGenerator/static/css/main.7675343e.chunk.css.map",
   "index.html": "/buttonGenerator/index.html",
-  "precache-manifest.17f3ef7062a646650ab1ad910be0f251.js": "/buttonGenerator/precache-manifest.17f3ef7062a646650ab1ad910be0f251.js",
+  "precache-manifest.711ecdabfe2ed887559d12f863d9afbd.js": "/buttonGenerator/precache-manifest.711ecdabfe2ed887559d12f863d9afbd.js",
   "service-worker.js": "/buttonGenerator/service-worker.js"
 }
