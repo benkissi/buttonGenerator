@@ -1,0 +1,16 @@
+@import "../base/variables";
+@import "../base/global";
+
+//foundation
+// @import "../base/foundation-settings";
+// @import "foundation";
+// @include foundation-everything;
+
+// @include foundation-grid;
+// @include foundation-flex-classes;
+// @include foundation-flex-grid;
+
+.app {
+    margin-top: 5rem;
+    padding: 2rem;
+}
