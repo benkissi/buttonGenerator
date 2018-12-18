@@ -10,7 +10,26 @@
 // @include foundation-flex-classes;
 // @include foundation-flex-grid;
 
+
+
 .app {
-    margin-top: 5rem;
     padding: 2rem;
+    padding-top: 5rem;
+    height: 100vh;
+}
+
+#heading {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#generator {
+    background: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+}
+
+#footer {
+    margin-top: 1rem;
 }

@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import BaseAttr from './buttonAttributes/BaseAttr';
-import Button from './buttonOutput/Button'
+import Button from './buttonOutput/Button';
+import ButtonCode from './buttonOutput/Codegenerator';
+import Header from './descriptions/Header';
+import Footer from './descriptions/Footer';
 import '../styles/components/App.scss';
+
 // import Foundation from 'foundation-sites';
 import jquery from 'jquery';
 
@@ -110,32 +114,56 @@ class App extends Component {
     return (
       <div className="app">
         <div className="grid-conatiner">
-          <div className="grid-x grid-margin-x align-center">
-            <div className="cell medium-5">
-              <BaseAttr onWidthInput={this.widthChangeHandeler.bind(this)} 
-              onTextInput={this.textChangeHandeler.bind(this)}
-              onHeightInput={this.heightChangeHandeler.bind(this)}
-              onBgInput={this.bgChangeHandeler.bind(this)}
-              onFontInput={this.fontChangeHandeler.bind(this)} 
-              onBorderInput={this.borderChangeHandeler.bind(this)}
-              onBoldInput= {this.boldChangeHandeler.bind(this)}
-              bold={this.state.bold}
-              color={bgColor}
-              fColor={fontColor}
-              border={borderColor}
-              onURLInput={this.URLChangeHandeler.bind(this)}
-              onInputFocus={this.renderPickerHandeler.bind(this)}
-              picker={this.state.renderPicker}/>
-            </div>
-            <div className="cell medium-5">
-                <Button 
-                text={this.state.buttonText} 
-                width={width} height={height} 
-                bg={bgColor}
-                border={borderColor}
-                bold={this.state.bold}
-                url={this.state.buttonURL}
-                font={fontColor}/>
+          <Header/>
+          <div  className="grid-x grid-margin-x align-center">
+            <div className="cell medium-10">
+              <div id="generator">
+                <div  className="grid-x grid-margin-x align-center">
+                  <div className="cell medium-5">
+                    <BaseAttr onWidthInput={this.widthChangeHandeler.bind(this)} 
+                    onTextInput={this.textChangeHandeler.bind(this)}
+                    onHeightInput={this.heightChangeHandeler.bind(this)}
+                    onBgInput={this.bgChangeHandeler.bind(this)}
+                    onFontInput={this.fontChangeHandeler.bind(this)} 
+                    onBorderInput={this.borderChangeHandeler.bind(this)}
+                    onBoldInput= {this.boldChangeHandeler.bind(this)}
+                    bold={this.state.bold}
+                    color={bgColor}
+                    fColor={fontColor}
+                    border={borderColor}
+                    onURLInput={this.URLChangeHandeler.bind(this)}
+                    onInputFocus={this.renderPickerHandeler.bind(this)}
+                    picker={this.state.renderPicker}/>
+                  </div>
+                  <div className="cell medium-5">
+                    <div className="grid-x grid-margin-x align-center">
+                      <div className="cell medium-12">
+                        <Button 
+                        text={this.state.buttonText} 
+                        width={width} height={height} 
+                        bg={bgColor}
+                        border={borderColor}
+                        bold={this.state.bold}
+                        url={this.state.buttonURL}
+                        font={fontColor}/>
+                      </div>
+                    </div>
+                    <div className="grid-x grid-margin-x align-center">
+                      <div className="cell medium-12">
+                        <ButtonCode
+                        text={this.state.buttonText} 
+                        width={width} height={height} 
+                        bg={bgColor}
+                        border={borderColor}
+                        bold={this.state.bold}
+                        url={this.state.buttonURL}
+                        font={fontColor}/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <Footer/>
+              </div>
             </div>
           </div>
         </div>
